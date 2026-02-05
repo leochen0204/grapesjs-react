@@ -1,4 +1,4 @@
-import GrapesJsEditor, { EditorProps } from '@grapesjs/react';
+import GrapesJsEditor, { EditorProps } from '@leochen0204/grapesjs-react';
 import { defaultEditorProps } from './common';
 
 export default function DefaultEditor(props: Partial<EditorProps>) {

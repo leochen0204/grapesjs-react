@@ -1,4 +1,4 @@
-import GrapesJsEditor, { AssetsProvider, Canvas, EditorProps, ModalProvider } from '@grapesjs/react';
+import GrapesJsEditor, { AssetsProvider, Canvas, EditorProps, ModalProvider } from '@leochen0204/grapesjs-react';
 import { ThemeProvider } from '@mui/material/styles';
 import { MAIN_BORDER_COLOR, customTheme, defaultEditorProps } from './common';
 import CustomAssetManager from './components/CustomAssetManager';

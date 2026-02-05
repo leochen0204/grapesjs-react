@@ -7,7 +7,7 @@ import GrapesJsEditor, {
   SelectorsProvider,
   StylesProvider,
   TraitsProvider
-} from '@grapesjs/react';
+} from '@leochen0204/grapesjs-react';
 import { ThemeProvider } from '@mui/material/styles';
 import { customTheme, defaultEditorProps } from './common';
 import CustomAssetManager from './components/CustomAssetManager';

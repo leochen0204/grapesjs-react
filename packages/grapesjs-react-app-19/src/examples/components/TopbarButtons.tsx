@@ -1,4 +1,4 @@
-import { useEditor } from '@grapesjs/react';
+import { useEditor } from '@leochen0204/grapesjs-react';
 import { mdiArrowULeftTop, mdiArrowURightTop, mdiBorderRadius, mdiFullscreen, mdiXml } from '@mdi/js';
 import Icon from '@mdi/react';
 import { useEffect, useState } from 'react';

@@ -1,6 +1,6 @@
 {
-  "name": "@grapesjs/react",
-  "version": "2.0.0",
+  "name": "@leochen0204/grapesjs-react",
+  "version": "2.0.0-react17",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GrapesJS/react.git"
+    "url": "https://github.com/leochen0204/grapesjs-react.git"
   },
   "exports": {
     ".": {
@@ -28,10 +28,15 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "peerDependencies": {
     "grapesjs": "^0.22.5",
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   }
 }

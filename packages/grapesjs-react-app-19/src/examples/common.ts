@@ -1,4 +1,4 @@
-import { EditorProps } from '@grapesjs/react';
+import { EditorProps } from '@leochen0204/grapesjs-react';
 import type grapesjs from 'grapesjs';
 import type { Plugin } from 'grapesjs';
 import type { EditorConfig } from 'grapesjs';

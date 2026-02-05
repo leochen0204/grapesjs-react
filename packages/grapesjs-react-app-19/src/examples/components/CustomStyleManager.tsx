@@ -1,4 +1,4 @@
-import { StylesResultProps } from '@grapesjs/react';
+import { StylesResultProps } from '@leochen0204/grapesjs-react';
 import { mdiMenuDown } from '@mdi/js';
 import Icon from '@mdi/react';
 import Accordion from '@mui/material/Accordion';

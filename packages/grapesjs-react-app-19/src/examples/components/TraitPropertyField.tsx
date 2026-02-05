@@ -1,4 +1,4 @@
-import { useEditor } from '@grapesjs/react';
+import { useEditor } from '@leochen0204/grapesjs-react';
 import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import FormControl from '@mui/material/FormControl';

@@ -1,4 +1,4 @@
-import { TraitsResultProps } from '@grapesjs/react';
+import { TraitsResultProps } from '@leochen0204/grapesjs-react';
 import TraitPropertyField from './TraitPropertyField';
 
 export default function CustomTraitManager({ traits }: Omit<TraitsResultProps, 'Container'>) {

@@ -1,4 +1,4 @@
-import { useEditor } from '@grapesjs/react';
+import { useEditor } from '@leochen0204/grapesjs-react';
 import { mdiEyeOffOutline, mdiEyeOutline, mdiMenuDown } from '@mdi/js';
 import Icon from '@mdi/react';
 import type { Component } from 'grapesjs';

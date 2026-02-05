@@ -1,9 +1,8 @@
 {
-  "name": "@grapesjs/react-app-19",
+  "name": "@grapesjs/react-app-17",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/index.js",
   "scripts": {
     "dev": "vite --force",
     "build": "tsc && vite build",
@@ -17,15 +16,15 @@
     "@mdi/react": "^1.6.1",
     "@mui/material": "^5.13.5",
     "@leochen0204/grapesjs-react": "2.0.0-react17",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3"
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
   },
   "resolutions": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

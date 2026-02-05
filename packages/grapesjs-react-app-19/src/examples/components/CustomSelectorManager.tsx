@@ -1,4 +1,4 @@
-import { SelectorsResultProps } from '@grapesjs/react';
+import { SelectorsResultProps } from '@leochen0204/grapesjs-react';
 import { mdiClose, mdiPlus } from '@mdi/js';
 import Icon from '@mdi/react';
 import FormControl from '@mui/material/FormControl';

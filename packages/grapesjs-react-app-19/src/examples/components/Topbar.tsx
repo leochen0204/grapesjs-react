@@ -1,4 +1,4 @@
-import { DevicesProvider, WithEditor } from '@grapesjs/react';
+import { DevicesProvider, WithEditor } from '@leochen0204/grapesjs-react';
 import FormControl from '@mui/material/FormControl';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';

@@ -10,9 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-private
 *.local
-.npmrc
+_index.html
 
 # Editor directories and files
 .vscode/*
@@ -24,5 +23,3 @@ private
 *.njsproj
 *.sln
 *.sw?
-
-.claude/settings.local.json

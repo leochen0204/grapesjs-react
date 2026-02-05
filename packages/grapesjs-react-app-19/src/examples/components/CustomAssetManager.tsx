@@ -1,4 +1,4 @@
-import { AssetsResultProps, useEditor } from '@grapesjs/react';
+import { AssetsResultProps, useEditor } from '@leochen0204/grapesjs-react';
 import { mdiClose } from '@mdi/js';
 import Icon from '@mdi/react';
 import type { Asset } from 'grapesjs';

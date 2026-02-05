@@ -1,4 +1,4 @@
-import { PagesResultProps } from '@grapesjs/react';
+import { PagesResultProps } from '@leochen0204/grapesjs-react';
 import { BTN_CLS, MAIN_BORDER_COLOR, cx } from '../common';
 import Icon from '@mdi/react';
 import { mdiDelete } from '@mdi/js';

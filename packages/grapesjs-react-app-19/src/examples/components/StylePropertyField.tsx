@@ -1,4 +1,4 @@
-import { useEditor } from '@grapesjs/react';
+import { useEditor } from '@leochen0204/grapesjs-react';
 import { mdiArrowDownDropCircle, mdiArrowUpDropCircle, mdiClose, mdiDelete, mdiPlus } from '@mdi/js';
 import Icon from '@mdi/react';
 import FormControl from '@mui/material/FormControl';

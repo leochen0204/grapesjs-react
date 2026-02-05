@@ -1,4 +1,4 @@
-import { EditorProps } from '@grapesjs/react';
+import { EditorProps } from '@leochen0204/grapesjs-react';
 import { mdiCheckBold, mdiClose } from '@mdi/js';
 import Icon from '@mdi/react';
 import type { Editor, ProjectData } from 'grapesjs';

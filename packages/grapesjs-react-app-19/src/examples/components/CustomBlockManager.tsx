@@ -1,4 +1,4 @@
-import { BlocksResultProps } from '@grapesjs/react';
+import { BlocksResultProps } from '@leochen0204/grapesjs-react';
 import { MAIN_BORDER_COLOR, cx } from '../common';
 
 export type CustomBlockManagerProps = Pick<BlocksResultProps, 'mapCategoryBlocks' | 'dragStart' | 'dragStop'>;

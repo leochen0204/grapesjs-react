@@ -5,7 +5,7 @@ import {
   SelectorsProvider,
   StylesProvider,
   TraitsProvider
-} from '@grapesjs/react';
+} from '@leochen0204/grapesjs-react';
 import { mdiBrush, mdiLayers, mdiViewGridPlus, mdiTextBoxMultiple, mdiCog } from '@mdi/js';
 import Icon from '@mdi/react';
 import Tab from '@mui/material/Tab';

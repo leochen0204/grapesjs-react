@@ -1,4 +1,4 @@
-import GrapesJsEditor, { EditorProps } from '@grapesjs/react';
+import GrapesJsEditor, { EditorProps } from '@leochen0204/grapesjs-react';
 import { defaultEditorProps, slowStoragePlugin } from './common';
 import FullSpinner from './components/FullSpinner';
 
