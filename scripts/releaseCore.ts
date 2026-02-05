@@ -15,7 +15,7 @@ async function prepareReleaseGrapesJSReact() {
     );
 
     const versionCmd = releaseTag === 'latest' ? '--patch' : `--prerelease --preid ${releaseTag}`;
-    runCommand(`yarn workspace @grapesjs/react version ${versionCmd} --no-git-tag-version --no-commit-hooks`);
+    runCommand(`yarn workspace @leochen0204/grapesjs-react version ${versionCmd} --no-git-tag-version --no-commit-hooks`);
 
     // Create a new release branch
     const newVersion = JSON.parse(fs.readFileSync(`${grapesJSReactPath}/package.json`, 'utf8')).version;

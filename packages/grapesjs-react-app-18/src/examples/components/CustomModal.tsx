@@ -7,7 +7,7 @@ import Modal, { ModalProps } from '@mui/material/Modal';
 import { MAIN_BG_COLOR, MAIN_TXT_COLOR, cx } from '../common';
 
 const style = {
-  position: 'absolute',
+  position: 'absolute' as const,
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
@@ -16,21 +16,23 @@ const style = {
   boxShadow: 24,
   overflow: 'hidden',
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: 'column' as const,
   maxHeight: '90vh',
   p: 2
 };
 
-interface CustomModalProps extends Omit<ModalProps, 'title'> {
+interface CustomModalProps extends Omit<ModalProps, 'title' | 'children'> {
   title: ReactNode;
+  children?: ReactNode;
   close: () => void;
 }
 
 export default function CustomModal({ children, title, close, ...props }: CustomModalProps) {
   return (
+    // @ts-ignore - Type conflict between React 17 and React 18
     <Modal onClose={close} {...props}>
       <Fade in={props.open}>
-        <Box sx={style} className={cx(MAIN_BG_COLOR, MAIN_TXT_COLOR, 'rounded')}>
+        <Box sx={style as any} className={cx(MAIN_BG_COLOR, MAIN_TXT_COLOR, 'rounded')}>
           <div className="flex pb-3">
             <div className="flex-grow text-lg">{title}</div>
             <div onClick={close} className="cursor-pointer">
