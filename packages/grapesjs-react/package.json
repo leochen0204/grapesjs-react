@@ -1,6 +1,6 @@
 {
   "name": "@leochen0204/grapesjs-react",
-  "version": "2.0.0-react17",
+  "version": "2.0.0-react17-rc.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
